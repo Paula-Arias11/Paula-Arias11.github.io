@@ -2,6 +2,6 @@ title: "Enlaces para ver películas y series"
 description: "Enlaces para entrar en páginas web para cualquier tipo de serie o película que quieras buscar"
 baseurl: ""
 url: "https://Paula-Arias11.github.io"
-remote_theme: "TolgaTatli/Moon"
+remote_theme: "codebygina/affiliates-jekyll-theme"
 plugins:
   - jekyll-remote-theme
