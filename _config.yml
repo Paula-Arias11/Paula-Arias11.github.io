@@ -3,5 +3,12 @@ description: "Enlaces para entrar en páginas web para cualquier tipo de serie o
 baseurl: ""
 url: "https://Paula-Arias11.github.io"
 remote_theme: "codebygina/affiliates-jekyll-theme"
+paginate: 6
+paginate_path: "/page:num/"
+
 plugins:
   - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
