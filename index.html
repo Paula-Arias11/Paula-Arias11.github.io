@@ -65,11 +65,15 @@ title: Inicio
   /* 1. Importar fuente moderna desde Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Manufacturing+Consent&display=swap');
 
-  /* 2. Fondo oscuro general y tipografía */
-  body, .site-content, .main-content {
-    background-color: #121216 !important;
-    color: #f8bbd0 !important; /* Rosa pastel suave para textos normales */
-    font-family: "Manufacturing Consent", system-ui;
+  /* 2. Aplicarla a textos y forzar peso 400 en todos los títulos */
+  body, .site-content, .main-content,
+  h1, h2, h3, h4, h5, h6,
+  .display-1, .display-2, .display-3, .display-4,
+  .jumbotron h1, .jumbotron .lead,
+  .navbar-brand, .section-title h2, .section-title h2 span,
+  .card-title, .card-title a {
+    font-family: 'Manufacturing Consent', system-ui !important;
+    font-weight: 400 !important;
   }
 
   /* 3. Barra superior (Navbar) en modo oscuro */
