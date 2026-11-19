@@ -1,4 +1,3 @@
-
 ---
 title: "Boredflix"
 date: 2026-11-18
