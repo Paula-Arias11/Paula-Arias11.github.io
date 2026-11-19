@@ -165,4 +165,14 @@ title: Inicio
   .card h3 a:hover {
     color: #ffb3d9 !important;
   }
+
+  /* Ocultar el texto "Follow" y los iconos de redes sociales de la barra superior */
+  .navbar-nav .nav-item:has(.fa-twitter),
+  .navbar-nav .nav-item:has(.fa-instagram),
+  .navbar-nav .nav-item:has(.fa-facebook),
+  .navbar-nav .nav-item:has(.fa-facebook-f),
+  .follow-label,
+  .social-icons {
+    display: none !important;
+  }
 </style>
