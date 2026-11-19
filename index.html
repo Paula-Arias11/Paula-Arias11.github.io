@@ -61,3 +61,92 @@ title: Inicio
     {% endfor %}
   </div>
 </section>
+<style>
+  /* 1. Importar fuente moderna desde Google Fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+  /* 2. Fondo oscuro general y tipografía */
+  body, .site-content, .main-content {
+    background-color: #121216 !important;
+    color: #f8bbd0 !important; /* Rosa pastel suave para textos normales */
+    font-family: 'Poppins', sans-serif !important;
+  }
+
+  /* 3. Barra superior (Navbar) en modo oscuro */
+  .navbar, .mediumnavigation {
+    background-color: #18181f !important;
+    border-bottom: 1px solid #2d2638 !important;
+  }
+
+  .navbar-brand, .nav-link, .follow-label {
+    color: #ff69b4 !important; /* Rosa vibrante */
+  }
+
+  /* 4. Títulos y enlaces en color rosa */
+  h1, h2, h3, h4, .section-title h2 span {
+    color: #ff69b4 !important; /* Rosa chicle / vibrante */
+    font-family: 'Poppins', sans-serif !important;
+  }
+
+  .section-title {
+    border-bottom: 1px solid #33273d !important;
+  }
+
+  a {
+    color: #ff85c1 !important;
+  }
+
+  a:hover {
+    color: #ffb3d9 !important;
+    text-decoration: none;
+  }
+
+  /* 5. Tarjetas en modo oscuro */
+  .card {
+    background-color: #1c1c24 !important;
+    border: 1px solid #33273d !important;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4) !important;
+  }
+
+  .card:hover {
+    transform: translateY(-4px);
+    border-color: #ff69b4 !important;
+  }
+
+  .card-title a {
+    color: #ff69b4 !important;
+  }
+
+  .card-text, .card-text p {
+    color: #f3d1df !important; /* Rosa muy claro para que se lea cómodo */
+  }
+
+  .border-top {
+    border-top: 1px solid #2e2636 !important;
+  }
+
+  /* 6. Etiquetas (#tags) y botón "Visitar web" en rosa */
+  .badge {
+    background-color: #2b1d2e !important;
+    color: #ff85c1 !important;
+    border: 1px solid #ff69b4 !important;
+  }
+
+  .btn-success {
+    background-color: #ff4da6 !important;
+    border-color: #ff4da6 !important;
+    color: #ffffff !important;
+  }
+
+  .btn-success:hover {
+    background-color: #e60073 !important;
+    border-color: #e60073 !important;
+  }
+
+  /* 7. Pie de página (Footer) oscuro */
+  .footer {
+    background-color: #121216 !important;
+    border-top: 1px solid #2d2638 !important;
+    color: #d49bb2 !important;
+  }
+</style>
