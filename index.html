@@ -64,7 +64,8 @@ title: Inicio
 <style>
   /* 1. Importar fuente moderna desde Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Manufacturing+Consent&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Manufacturing+Consent&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
   /* 2. Aplicarla a textos y forzar peso 400 en todos los títulos */
   body, .site-content, .main-content,
   h1, h2, h3, h4, h5, h6,
@@ -169,5 +170,12 @@ title: Inicio
   /* Ocultar toda la barra de navegación superior */
   .navbar, .mediumnavigation {
     display: none !important;
+  }
+
+  /* 2. Añade esto justo antes de cerrar para que solo las descripciones usen Poppins */
+  .card-text, .card-text p {
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 0.95rem !important;
+    line-height: 1.5 !important;
   }
 </style>
