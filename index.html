@@ -16,10 +16,10 @@ title: Inicio
   </div>
   <nav class="sidebar-nav">
     <button class="sidebar-item activo" onclick="cambiarApartado('peliculas', this)">
-      🎬 Películas y Series
+      Películas y Series
     </button>
     <button class="sidebar-item" onclick="cambiarApartado('anime', this)">
-      ⛩️ Anime
+      Anime
     </button>
   </nav>
 </aside>
@@ -28,7 +28,7 @@ title: Inicio
 <div id="overlay-menu" onclick="toggleMenuLateral()"></div>
 
 <!-- BANNER PRINCIPAL (CAMBIA SEGÚN EL APARTADO ELEGIDO) -->
-<div class="jumbotron mb-5" style="background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.65)), url('{{ site.baseurl }}/assets/images/banner.jpg') center/cover no-repeat; border-radius: 14px; color: #ffffff; padding: 70px 40px; box-shadow: 0 10px 25px rgba(0,0,0,0.12);">
+<div class="jumbotron mb-5" style="background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.65)), url('{{ site.baseurl }}/assets/banner.jpg') center/cover no-repeat; border-radius: 14px; color: #ffffff; padding: 70px 40px; box-shadow: 0 10px 25px rgba(0,0,0,0.12);">
   <div class="row align-items-center">
     <div class="col-lg-9">
       <h1 id="banner-titulo" class="display-4 font-weight-bold mb-3" style="color: #ff69b4 !important;">{{ site.title }}</h1>
@@ -398,5 +398,26 @@ title: Inicio
 
   #overlay-menu.activo {
     display: block;
+  }
+
+  /* Ocultar por completo la barra blanca superior del tema y su espacio reservado */
+  header.navbar, .navbar, .mediumnavigation {
+    display: none !important;
+  }
+
+  body, .site-content {
+    padding-top: 20px !important;
+    margin-top: 0 !important;
+  }
+
+  /* Asegurar que el botón de Apartados esté siempre por encima de todo */
+  #btn-menu-lateral {
+    top: 20px !important;
+    left: 20px !important;
+    z-index: 99999 !important;
+  }
+
+  html, body, .site-content, .container, .main-content {
+    background-color: #121216 !important;
   }
 </style>
