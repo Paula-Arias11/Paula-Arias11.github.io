@@ -5,4 +5,4 @@ link: "https://jkanime.net/"
 tags: [anime, subtitulado]
 ---
 
-Descripción de la página de anime.
+Una de las páginas más conocidas y completas para ver anime online en alta definición. Cuenta con un catálogo enorme que incluye tanto clásicos como estrenos en emisión, todo en versión original japonesa con subtítulos en español.
